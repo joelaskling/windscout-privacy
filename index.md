@@ -4,18 +4,20 @@ title: Windscout Privacy Policy
 
 # Windscout — Privacy Policy
 
-**Last updated:** August 12, 2026
+**Last updated:** August 13, 2026
 
 Windscout is a wind and weather app, built by Joel Askling. This policy
 covers both the iOS and Android apps (`com.joelaskling.windscout`).
 
 ## The short version
 
-Windscout has no accounts, no ads, no analytics, and no crash-reporting SDKs, and it
-doesn't sell or share your data. It uses your device's location to fetch a wind forecast
-and show your position on the on-screen map, and it caches that forecast on your device
-so the app still works with no signal. Two outside services are involved in making that
-work — Open-Meteo (weather data) and Mapbox (the map) — described below.
+Windscout has no accounts, no ads, and no crash-reporting SDKs, and it doesn't sell or
+share your data. It uses your device's location to fetch a wind forecast and show your
+position on the on-screen map, and it caches that forecast on your device so the app
+still works with no signal. It also sends one anonymous signal when the app opens, so
+usage can be counted — never anything tied to you individually. Three outside services
+are involved in making that work — Open-Meteo (weather data), Mapbox (the map), and
+Aptabase (anonymous usage counts) — described below.
 
 ## Location
 
@@ -53,8 +55,22 @@ map won't work without it.
   See [Mapbox's privacy policy](https://www.mapbox.com/legal/privacy) and their
   [data privacy FAQ](https://www.mapbox.com/legal/legal-faq).
 
-Neither service is used for advertising, and Windscout doesn't send either of them
-anything beyond what's needed to answer "what's the forecast/map here."
+**Aptabase** (aptabase.com), for basic, anonymous usage analytics:
+
+- Windscout sends one event when the app opens, so how many people use it can be
+  counted. Nothing else is tracked.
+- Aptabase never collects device identifiers (no Device ID, hardware identifier, etc.)
+  and never stores your IP address as-is. Instead, sessions are grouped using a
+  one-way hash of your IP, device/OS info, and a salt that rotates every day — this
+  means the same install can't be linked across two different days, let alone to you
+  personally.
+- Not used for advertising or any kind of cross-app tracking. Data is hosted in the EU
+  and kept for up to 5 years; because it can't be traced back to an individual, it
+  can't be looked up or deleted for a specific person. See
+  [Aptabase's privacy policy](https://aptabase.com/legal/privacy).
+
+None of these services are used for advertising, and Windscout doesn't send any of them
+anything beyond what's described above.
 
 ## What stays on your device
 
@@ -65,9 +81,10 @@ exists.
 
 ## What Windscout doesn't do
 
-No accounts or sign-in. No analytics or crash-reporting SDKs. No advertising or
-advertising identifiers. No user-generated content. No sale or sharing of your data
-beyond the two services above, which exist to provide the forecast and map themselves.
+No accounts or sign-in. No crash-reporting SDKs. No advertising or advertising
+identifiers. No cross-app or cross-day tracking. No user-generated content. No sale or
+sharing of your data beyond the three services above, which exist to provide the
+forecast, map, and basic usage count themselves.
 
 ## Children
 
