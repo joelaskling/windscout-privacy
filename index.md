@@ -1,17 +1,17 @@
 ---
-title: Windscout Privacy Policy
+title: Gustline Privacy Policy
 ---
 
-# Windscout — Privacy Policy
+# Gustline — Privacy Policy
 
 **Last updated:** August 13, 2026
 
-Windscout is a wind and weather app, built by Joel Askling. This policy
+Gustline is a wind and weather app, built by Joel Askling. This policy
 covers both the iOS and Android apps (`com.joelaskling.windscout`).
 
 ## The short version
 
-Windscout has no accounts, no ads, and no crash-reporting SDKs, and it doesn't sell or
+Gustline has no accounts, no ads, and no crash-reporting SDKs, and it doesn't sell or
 share your data. It uses your device's location to fetch a wind forecast and show your
 position on the on-screen map, and it caches that forecast on your device so the app
 still works with no signal. It also sends one anonymous signal when the app opens, so
@@ -21,7 +21,7 @@ Aptabase (anonymous usage counts) — described below.
 
 ## Location
 
-Windscout asks for location access "while using the app" only. It never requests
+Gustline asks for location access "while using the app" only. It never requests
 background/"Always" access, and it never reads your location when the app isn't open.
 
 Your location is used to:
@@ -30,7 +30,7 @@ Your location is used to:
 - Show your position on the on-screen map, while the app is open and in the foreground
 - Work out compass heading, using your device's built-in sensors — this never leaves the device
 
-If you deny or later revoke location access, Windscout will prompt you to grant it again
+If you deny or later revoke location access, Gustline will prompt you to grant it again
 (with a link to your device's Settings) rather than silently failing. The forecast and
 map won't work without it.
 
@@ -43,7 +43,7 @@ map won't work without it.
   separate requests back to you individually.
 - Open-Meteo's infrastructure logs IP addresses for up to 90 days for abuse prevention
   and usage monitoring, then deletes them — standard handling for anyone calling their
-  API, not something Windscout adds on top. See
+  API, not something Gustline adds on top. See
   [Open-Meteo's terms](https://open-meteo.com/en/terms).
 
 **Mapbox** (mapbox.com), for the on-screen map:
@@ -57,7 +57,7 @@ map won't work without it.
 
 **Aptabase** (aptabase.com), for basic, anonymous usage analytics:
 
-- Windscout sends one event when the app opens, so how many people use it can be
+- Gustline sends one event when the app opens, so how many people use it can be
   counted. Nothing else is tracked.
 - Aptabase never collects device identifiers (no Device ID, hardware identifier, etc.)
   and never stores your IP address as-is. Instead, sessions are grouped using a
@@ -69,7 +69,7 @@ map won't work without it.
   can't be looked up or deleted for a specific person. See
   [Aptabase's privacy policy](https://aptabase.com/legal/privacy).
 
-None of these services are used for advertising, and Windscout doesn't send any of them
+None of these services are used for advertising, and Gustline doesn't send any of them
 anything beyond what's described above.
 
 ## What stays on your device
@@ -79,7 +79,7 @@ so the app works offline. This local cache is never uploaded anywhere. Uninstall
 app deletes it — there's no account or server-side copy to also delete, because none
 exists.
 
-## What Windscout doesn't do
+## What Gustline doesn't do
 
 No accounts or sign-in. No crash-reporting SDKs. No advertising or advertising
 identifiers. No cross-app or cross-day tracking. No user-generated content. No sale or
@@ -88,7 +88,7 @@ forecast, map, and basic usage count themselves.
 
 ## Children
 
-Windscout isn't directed at children and doesn't knowingly collect data from anyone
+Gustline isn't directed at children and doesn't knowingly collect data from anyone
 under 13 (or the relevant minimum age where you live).
 
 ## Changes to this policy
